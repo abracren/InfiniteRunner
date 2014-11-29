@@ -1,0 +1,28 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d","chipmunk"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/app.js",
+        "src/Utils.js",
+        "src/Player.js",
+        "src/PlayScene.js",
+        "src/Coin.js",
+        "src/Wall.js",
+        "src/Obstacle.js",
+        "src/menuLayer.js",
+        "src/Road.js"
+        
+       
+    ]
+
+}
